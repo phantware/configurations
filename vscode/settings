@@ -1,0 +1,18 @@
+{
+    "workbench.iconTheme": "file-icons-colourless",
+    "terminal.integrated.shell.windows": "C:\\Program Files\\Git\\bin\\bash.exe",
+    "terminal.integrated.rendererType": "dom",
+    "editor.formatOnSave": true,
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+    },
+    "files.autoSave": "afterDelay",
+    "files.eol": "\n",
+    "rsp-ui.enableStartServerOnActivation": [
+        {
+            "id": "redhat.vscode-server-connector",
+            "name": "Red Hat RSP Server",
+            "startOnActivation": true
+        }
+    ]
+}
