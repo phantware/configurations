@@ -1,0 +1,94 @@
+{
+  "editor.fontSize": 11,
+  "files.autoSave": "off",
+  "editor.tabSize": 1,
+  "editor.wordWrap": "on",
+  "terminal.integrated.fontSize": 10,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.minimap.enabled": false,
+  "prettier.jsxSingleQuote": true,
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[python]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.formatOnType": true
+  },
+  "editor.cursorBlinking": "expand",
+  "window.zoomLevel": 2,
+  // "al.incrementalBuild": true,
+
+  // "al.compilationOptions": {
+  //   "delayAfterLastDocumentChange": 1000,
+
+  //   "parallel": true,
+
+  //   "maxDegreeOfParallelism": 16,
+
+  //   "delayAfterLastProjectChange": 1000
+  // },
+
+  // "al.backgroundCodeAnalysis": true,
+
+  "al.enableCodeAnalysis": true,
+  "[al]": {
+    "editor.defaultFormatter": "ms-dynamics-smb.al"
+  },
+  // "workbench.iconTheme": "al",
+  "git.autofetch": true,
+  "diffEditor.ignoreTrimWhitespace": false,
+  "terminal.integrated.profiles.windows": {
+    "PowerShell": {
+      "source": "PowerShell",
+      "icon": "terminal-powershell"
+    },
+    "Command Prompt": {
+      "path": [
+        "${env:windir}\\Sysnative\\cmd.exe",
+        "${env:windir}\\System32\\cmd.exe"
+      ],
+      "args": [],
+      "icon": "terminal-cmd"
+    },
+    "Git Bash": {
+      "source": "Git Bash"
+    },
+    "python": {
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "args": []
+    },
+    "python.exe": {
+      "path": "C:\\Windows\\System32\\cmd.exe",
+      "args": []
+    }
+  },
+  "liveshare.audio.startCallOnShare": true,
+  "git.enableSmartCommit": true,
+  "git.confirmSync": false,
+  "editor.accessibilitySupport": "off",
+  "cSpell.userWords": [
+    "cpform",
+    "firstname",
+    "lastname",
+    "tailwindcss",
+    "WDTU"
+  ],
+  "workbench.iconTheme": "material-icon-theme",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.unicodeHighlight.allowedLocales": {
+    "es": true
+  },
+  "editor.inlineSuggest.enabled": true,
+  "vsicons.dontShowNewVersionMessage": true
+
+  // "al.enableCodeActions": false
+  // "al.codeAnalyzers": ["${AppSourceCop}", "${CodeCop}"]
+}
